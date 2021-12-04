@@ -12,7 +12,7 @@ const Landing = () =>{
         </div>
         <div className="content-2">
         <input className="input" type="text" name="text" />
-        <button class="submit-button">  </button>
+        <button class="submit-button"> <ArrowForwardIcon/> </button>
         </div>
        
         

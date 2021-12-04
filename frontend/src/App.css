@@ -56,18 +56,20 @@ body{
   text-align: left;
   outline: none;
   padding: 1.5rem;
+  width: 25%;
   border-radius: 12px;
   border: none;
+  font-size: 1.5rem;
 }
 
 .submit-button{
-  padding: 1rem 1.5rem;
- 
+  padding: 1.5rem;
   font-family:'Ruslan Display', cursive ;
-  margin-right: 5rem;
-  background-color: #695CFF;
+  margin-left: 2rem;
+  background-color: #4a3aff;
   color: whitesmoke;
   border:none;
   border-radius: 12px;
+
   
 }
