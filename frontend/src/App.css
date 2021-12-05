@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jockey+One&family=Merriweather+Sans:wght@400&family=Ruslan+Display&display=swap");
 
 body {
-  background-image: url(./Thumbnail.svg);
+  background-image: url(./assets/Thumbnail.svg);
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
