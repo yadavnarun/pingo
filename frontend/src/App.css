@@ -1,51 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Merriweather+Sans:wght@400&family=Ruslan+Display&display=swap');
 body{
-  background-image: url(./Thumbnail.png);
+  background-image: url(./assets/Thumbnail.png);
   margin:0;
   padding:0;
   box-sizing: border-box;
-}
-
-.title{
-  font-family: 'Jockey One', sans-serif;
-  font-size: 10rem;
-  text-align: center;
-  color: white;
-}
-
-.sub-title{
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 3.125rem;
-  text-align: center;
-  color: white;
-
+  overflow-y: hidden;
+  background-repeat: no-repeat;
 }
 
 .content{
   text-align: center;
+  margin-top: 10rem;
 }
 
-.create-button{
-  padding: 1rem 1.5rem;
-  margin-right: 5rem;
-  font-size: 3.125rem;
-  font-family:'Ruslan Display', cursive ;
-  background-color: #695CFF;
-  color: whitesmoke;
-  border: none;
-  border-radius:12px;
-}
 
-.join-button{
-  padding: 1rem 1.5rem;
-  font-size: 3.125rem;
-  font-family:'Ruslan Display', cursive ;
-  margin-right: 5rem;
-  background-color: #695CFF;
-  color: whitesmoke;
-  border:none;
-  border-radius: 12px;
-}
 
 .content-2{
   text-align: center;
