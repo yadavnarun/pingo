@@ -1,8 +1,14 @@
-import "./App.css";
-import Landing from "./components/Landing";
+
+import './App.css';
+import {Routes, Route, Link } from 'react-router-dom';
+import Landing from './pages/Landing'
+import Gamepage from './pages/Gamepage';
+
 
 function App() {
+
   const ws = new WebSocket("ws://localhost:9090/");
+
 
   ws.onopen = () => {
     ws.send(
@@ -21,12 +27,21 @@ function App() {
       clientId = response.data.clientId;
     }
   };
-
+  
   return (
-    <>
-      <Landing cliendId={clientId} />
+    <>  
+  
+    <Routes>
+      <Route exact path="/" element={   <Landing cliendId={clientId} />} />
+      <Route exact path="/game" element={<Gamepage />} />
+    </Routes>
+    
     </>
-  );
+  )
+    
+
+
+
 }
 
 export default App;

@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Jockey+One&family=Merriweather+Sans:wght@400&family=Ruslan+Display&display=swap");
-
 body {
-  background-image: url(./assets/Thumbnail.svg);
-  background-repeat: no-repeat;
+  background-image: url(./assets/Thumbnail.png);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-y: hidden;
+  background-repeat: no-repeat;
 }
 
 .content {
   text-align: center;
+  margin-top: 10rem;
 }
 
 .content-2 {
@@ -36,4 +36,30 @@ body {
   color: whitesmoke;
   border: none;
   border-radius: 12px;
+}
+
+.exit-button {
+  padding: 1rem 1.5rem;
+  font-size: 3.125rem;
+  font-family: "Ruslan Display", cursive;
+  background-color: #695cff;
+  color: whitesmoke;
+  border: none;
+  border-radius: 12px;
+  margin: 2rem;
+}
+
+.cards {
+  text-align: center;
+  display: flex;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.cards__item {
+  background-color: #695cff;
+  border-radius: 1.5rem;
+  margin: 1rem;
+  flex-basis: 50%;
+  padding: 5rem;
 }
