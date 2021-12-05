@@ -3,26 +3,22 @@ import { useNavigate } from "react-router-dom";
 import Branding from "../components/branding/branding";
 import Button from "../components/button/button";
 
-const Gamepage = () => {
-  let history = useNavigate();
+const Gamepage = ({ ws, cliendId, game, setGame }) => {
+  let navigate = useNavigate();
   const exit = () => {
-    history("/");
+    setGame(null);
+    navigate("/");
   };
+
   return (
     <>
-    <Branding />
+      <Branding />
       <div className="content">
-        <div class="cards">
-          <div class="cards__item">player 1</div>
-          <div class="cards__item">player 2</div>
+        <div className="cards">
+          <div className="cards__item">player 1</div>
+          <div className="cards__item">player 2</div>
         </div>
-        {/* <button className="exit-button" onClick={exit}>
-          Exit Game
-        </button> */}
-           <Button
-          text="Exit"
-          click={exit}
-        />
+        <Button text="Exit" click={() => exit()} />
       </div>
     </>
   );
