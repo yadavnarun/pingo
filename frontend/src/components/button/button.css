@@ -1,0 +1,38 @@
+.default {
+  width: 20rem;
+  font-family: "Ruslan Display", cursive;
+  padding: 1rem 1.5rem;
+  margin-right: 2rem;
+  font-size: 3rem;
+  background-color: #695cff;
+  color: whitesmoke;
+  border: none;
+  border-radius: 0.75rem;
+}
+
+.default:disabled {
+  background-color: #9c93ff;
+}
+
+/* 
+.create-button {
+  padding: 1rem 1.5rem;
+  margin-right: 5rem;
+  font-size: 3.125rem;
+  font-family: "Ruslan Display", cursive;
+  background-color: #695cff;
+  color: whitesmoke;
+  border: none;
+  border-radius: 12px;
+}
+
+.join-button {
+  padding: 1rem 1.5rem;
+  font-size: 3.125rem;
+  font-family: "Ruslan Display", cursive;
+  margin-right: 5rem;
+  background-color: #695cff;
+  color: whitesmoke;
+  border: none;
+  border-radius: 12px;
+} */

@@ -1,58 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Merriweather+Sans:wght@400&family=Ruslan+Display&display=swap');
-body{
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&family=Merriweather+Sans:wght@400&family=Ruslan+Display&display=swap");
+
+body {
   background-image: url(./Thumbnail.svg);
-  margin:0;
-  padding:0;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  overflow-y: hidden;
 }
 
-.title{
-  font-family: 'Jockey One', sans-serif;
-  font-size: 10rem;
-  text-align: center;
-  color: white;
-}
-
-.sub-title{
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 3.125rem;
-  text-align: center;
-  color: white;
-
-}
-
-.content{
+.content {
   text-align: center;
 }
 
-.create-button{
-  padding: 1rem 1.5rem;
-  margin-right: 5rem;
-  font-size: 3.125rem;
-  font-family:'Ruslan Display', cursive ;
-  background-color: #695CFF;
-  color: whitesmoke;
-  border: none;
-  border-radius:12px;
-}
-
-.join-button{
-  padding: 1rem 1.5rem;
-  font-size: 3.125rem;
-  font-family:'Ruslan Display', cursive ;
-  margin-right: 5rem;
-  background-color: #695CFF;
-  color: whitesmoke;
-  border:none;
-  border-radius: 12px;
-}
-
-.content-2{
+.content-2 {
   text-align: center;
   margin: 2.5rem;
 }
 
-.input{
+.input {
   text-align: left;
   outline: none;
   padding: 1.5rem;
@@ -62,14 +28,12 @@ body{
   font-size: 1.5rem;
 }
 
-.submit-button{
+.submit-button {
   padding: 1.5rem;
-  font-family:'Ruslan Display', cursive ;
+  font-family: "Ruslan Display", cursive;
   margin-left: 2rem;
   background-color: #4a3aff;
   color: whitesmoke;
-  border:none;
+  border: none;
   border-radius: 12px;
-
-  
 }
